@@ -1,0 +1,57 @@
+.body {
+    background-image: url("../image/Restaurant.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.body_text {
+    width: 40vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #cab6b141;
+    font-size: 54px;
+    color: #3f1c14;
+}
+.description {
+    display: flex;
+    flex-direction: row;
+    width: 45vw;
+    margin: 5% auto;
+    justify-content: space-around;
+    gap: 50px;
+}
+.description p {
+    font-size: 36px;
+}
+.description img {
+    width: 20vw;
+    height: 20vw;
+}
+.div1_descr {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.cards {
+    margin: 0 auto;
+}
+.cards h1 {
+    text-align: center;
+}
+.div_card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.div_card div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: #D9D9D9; */
+    height: 50vh;
+    border-radius: 20%;
+}

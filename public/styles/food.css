@@ -1,0 +1,21 @@
+body {
+    height: 100vh;
+}
+.div_food {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+    margin: 5% 0;
+}
+.div_food div {
+    width: 30vw;
+
+}
+.div_btn {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    width: 40vw;
+    margin: 0 auto;
+}

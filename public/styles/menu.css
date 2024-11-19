@@ -1,0 +1,33 @@
+.body {
+    background-image: url("../image/Restaurant.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+}
+.body_text {
+    width: 40vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #cab6b141;
+    font-size: 54px;
+    color: #3f1c14;
+}
+.cards {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.div_card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.div_card div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

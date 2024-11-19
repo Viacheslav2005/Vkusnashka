@@ -1,0 +1,32 @@
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 5% 0;
+}
+.order-item {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 15px;
+}
+.order-item:last-child {
+    border-bottom: none;
+}
+.cart-block {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 5px;
+}
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.cart-item img {
+    width: 50px;
+    height: auto;
+}
+.total-price {
+    font-weight: bold;
+    color: #dc3545;
+}
